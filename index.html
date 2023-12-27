@@ -1,39 +1,46 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<head>
-     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Hey! It's Adam</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Oswald"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
 
-     <title>Hey! It's Adam</title>
-     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
-     <link rel="stylesheet" href="./css/style.css" />
-</head>
-
-<body>
-
+  <body>
     <div class="main">
-        <p class="heyitsadam">Hey! It's Adam!</p>
-        <img src="./img/adam.png" class="character"/>
-        <p class="visitors">
-            Visitor Count: <span class="visit_count"></span>
-        </p>
-        <div class="built-with">
-            <p class="title">
-                Built With
-            </p>
-            <ul class="list">
-                <li>Static Site Hosted on Azure Blob Storage</li>
-                <li>Site is Served Using a Custom Domain and Azure Front Door CDN</li>
-                <li>Javascript and Python Azure Function App for Visitor Counter</li>
-                <li>Python Function App Uses Cosmos DB for Storing the Visitor Count</li>
-                <li>Github Actions for CI/CD Pipeline with Azure Including CDN Cache Purge</li>
-
-            </ul>
-        </div>
+      <p class="heyitsadam">Hey! It's Adam!</p>
+      <img src="./img/adam.png" class="character" />
+      <p class="visitors">Visitor Count: <span class="visit_count"></span></p>
+      <div class="built-with">
+        <p class="title">Built With</p>
+        <ul class="list">
+          <li>Static Site Hosted on Azure Blob Storage</li>
+          <li>
+            Site is Served Using a Custom Domain, Azure DNS and Azure Front Door
+            CDN
+          </li>
+          <li>Javascript and Python Azure Function App for Visitor Counter</li>
+          <li>
+            Python Function App Uses Cosmos DB for Storing the Visitor Count
+          </li>
+          <li>
+            Github Actions for CI/CD Pipeline with Azure Including CDN Cache
+            Purge
+          </li>
+        </ul>
+      </div>
     </div>
     <script src="./js/main.js"></script>
-</body>
-
+  </body>
 </html>
