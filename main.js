@@ -1,6 +1,6 @@
 // Get the span element by its class name
 let span = document.getElementsByClassName("visit_count")[0];
-
+span.textContent = "Loading Count...";
 // Define a function to fetch the value from the endpoint
 function fetchValue() {
   // Use the fetch API to make a GET request
