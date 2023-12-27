@@ -43,6 +43,11 @@ body {
 .built-with {
   margin-top:50px;
 }
+
+.diagram {
+  width: 100%;
+  height: auto;
+}
 .title {
   font-size: 40px;
   font-style: italic;
