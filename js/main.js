@@ -5,7 +5,7 @@ span.textContent = "Loading Count...";
 function fetchValue() {
   // Use the fetch API to make a GET request
   fetch(
-    "https://func-heyitsadam.azurewebsites.net/api/http_trigger?code=QIQ_hAW3vKiL_26IyWMgtUQ7n-O8P-3JOjmuLia5-rmAAzFusufUOw=="
+    "https://func-heyitsadam.azurewebsites.net/api/http_trigger?code=cCe-Xdue2wSXFgQA7SmmMzKPOclW7q84N92jqAVywfg-AzFuDK4z6A=="
   )
     .then((response) => response.json()) // Parse the response as JSON
     .then((data) => {
